@@ -10,7 +10,7 @@ Criar com token id ou somente ssh
 
 # SSHPLUS
 
-``apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/cybercoari-1/sshplus/main/Plus && chmod 777 Plus && ./Plus``
+`apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/cybercoari-1/sshplus/main/Plus && chmod 777 Plus && ./Plus`
 
 # Acesso Root
 

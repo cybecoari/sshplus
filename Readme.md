@@ -6,5 +6,4 @@
 
 # Acesso Root
 
-wget https://raw.githubusercontent.com/cybercoari-1/sshplus/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
-# SSHPLUS
+``wget https://raw.githubusercontent.com/cybercoari-1/sshplus/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh``

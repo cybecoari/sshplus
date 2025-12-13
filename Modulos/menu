@@ -444,60 +444,60 @@ case "$x" in
    otimizar
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
-   9 | 09)
+   15 | 15)
    clear
    infousers
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
-   10)
+   16 | 16)
    conexao
    exit;
    ;;
-   11)
+   17 | 17)
    clear
    velocity
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
-   12)
+   18)
    clear
    banner
    sleep 3
    ;;
-   13)
+   19)
    clear
    echo -e "\033[1;32mPARA SAIR CLICK CTRL + C\033[1;36m"
    sleep 4
    nload
    ;;
-   14)
+   20)
    clear
    otimizar
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
-   15)
+   21)
    userbackup
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
-   16)
+   22)
    swapmemory
    ;;
-   17)
+   23)
    limit_ssh
    ;;
-   18)
+   24)
    clear
    badvpn
    exit;
    ;;
-   19)
+   25)
    onapp_ssh
    ;;
-   20)
+   26)
    clear
    detalhes
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
-   21)
+   27)
    menu2
    ;;
    0 | 00)

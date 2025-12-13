@@ -7,3 +7,4 @@ apt-get update -y; apt-get upgrade -y;wget https://raw.githubusercontent.com/mod
 ```
 bash <(wget -qO- raw.githubusercontent.com/modderajuda/donomodderajuda/main/senharoot.ssh)
 ```
+ 

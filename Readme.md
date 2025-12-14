@@ -1,4 +1,6 @@
-# Arrumando os códigos
+
+# Corrigindo os códigos.
+
 
 # instalador Scriptssh 
 ```
@@ -7,6 +9,6 @@ apt-get update -y; apt-get upgrade -y;wget https://raw.githubusercontent.com/cyb
 
 # Definir/Alterar senha root
 ```
-bash <(wget -qO- raw.githubusercontent.com/modderajuda/donomodderajuda/main/senharoot.ssh)
+bash <(wget -qO- raw.githubusercontent.com/cybecoari/sshplus/main/senharoot.ssh)
 ```
  

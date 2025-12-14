@@ -481,32 +481,58 @@ case "$x" in
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;;
    21)
-   userbackup
+   clear
+   addhost
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   menu2
    ;;
    22)
-   swapmemory
+   clear
+   delhost
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   menu2
    ;;
    23)
-   limit_ssh
+   clear
+   reiniciarsistema
    ;;
    24)
    clear
-   badvpn
-   exit;
+   reiniciarservicos
+   sleep 3
    ;;
    25)
-   onapp_ssh
+   blockt
    ;;
    26)
-   clear
-   detalhes
-   echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   botssh
    ;;
    27)
-   menu2
+   botteste.sh
    ;;
-   0 | 00)
+   28)
+   clear
+   senharoot
+   sleep 3
+   ;;
+   29)
+   autoexec
+   ;;
+   30)
+   attscript
+   ;;
+   31)
+   clear
+   delscript
+   ;;
+   32)
+   clear
+   initcheck
+   ;;
+   33)
+   menu
+   ;;
+   0|00)
    echo -e "\033[1;31mSaindo...\033[0m"
    sleep 2
    clear

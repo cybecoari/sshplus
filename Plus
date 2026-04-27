@@ -154,7 +154,7 @@ if [[ "$resposta" = '1' ]]; then
         echo ""
         tput setaf 2
         tput bold
-        read -p "Opção ?: " -e -i 1 optiondb
+        read -p "Opção ?: " -e -i 2 optiondb
         tput sgr0
     } || {
         awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' >$HOME/usuarios.db

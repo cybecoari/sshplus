@@ -152,7 +152,7 @@ case "$x" in
      initcheck
      ;;
 	2 | 02)
-	bash <(wget -qO- https://raw.githubusercontent.com/cybecoari/checkuser/main/install.sh) && iniciar
+	bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/checkuser/main/install.sh) && iniciar
 	;;
 	3 | 03)
 	bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/ApiUlekCheckUser/main/install.sh) && apiUlekCheckuser
@@ -188,7 +188,7 @@ echo -ne "\033[1;32mO QUE VOCE DESEJA FAZER \033[1;37m?\033[1;31m?\033[1;37m : "
 case "$x" in
     1 | 01)
     clear
-    bash <(wget -qO- https://raw.githubusercontent.com/cybecoari/sync/main/sincpainel)
+    bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/sync/main/sincpainel)
     echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
     menu
 	;;
@@ -507,4 +507,7 @@ echo -e "\E[38;5;18m┃\E[38;5;196m|\E[38;5;33m15\E[38;5;196m|\033[1;37m➜ \E[3
 echo -e "\E[38;5;18m┃\E[38;5;196m|\E[38;5;33m16\E[38;5;196m|\033[1;37m➜ \E[38;1;33mBACKUP\E[38;5;196m                    |\E[38;5;33mAT\E[38;5;196m|$var01 \033[1;32mATUALIZAR SCRIPT      \E[38;5;18m┃"
 echo -e "\E[38;5;18m┃\E[38;5;196m|\E[38;5;33m17\E[38;5;196m|\033[1;37m➜ \E[38;1;33mMEMORIA VIRTUAL\E[38;5;196m           |\E[38;5;33mRE\E[38;5;196m|\033[1;37m➜ \033[1;31mREMOVER SCRIPT        \E[38;5;18m┃"
 echo -e "\E[38;5;18m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m"
-echo -e "\033[0;36m ╭─────────────────╮\033[0;31m\033[0;36m ╭─────────────────╮\033[0;31m\033[0;36m ╭─────────────────╮
+echo -ne "\E[38;5;40mO QUE VOCE DESEJA FAZER \033[1;37m?\033[1;31m?\033[1;37m:"; read x
+case "$x" in 
+   1 | 01)
+   cle

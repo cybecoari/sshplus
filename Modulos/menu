@@ -152,7 +152,7 @@ case "$x" in
      initcheck
      ;;
 	2 | 02)
-	bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/checkuser/main/install.sh) && iniciar
+	bash <(wget -qO- https://raw.githubusercontent.com/cybecoari/checkuser/main/install.sh) && iniciar
 	;;
 	3 | 03)
 	bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/ApiUlekCheckUser/main/install.sh) && apiUlekCheckuser
@@ -188,7 +188,7 @@ echo -ne "\033[1;32mO QUE VOCE DESEJA FAZER \033[1;37m?\033[1;31m?\033[1;37m : "
 case "$x" in
     1 | 01)
     clear
-    bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/sync/main/sincpainel)
+    bash <(wget -qO- https://raw.githubusercontent.com/cybecoari/sync/main/sincpainel)
     echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
     menu
 	;;
